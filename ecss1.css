@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  border-bottom: 2px solid #95a5a6;
+  margin-bottom: 0;
+}
+
+#headertext {
+  font-family: 'Poppins', sans-serif;
+  color: #f39c12;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+#headertext2 {
+  font-family: 'Poppins', sans-serif;
+  color: #ecf0f1;
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f39c12;
+  width: 100%;
+  height: 60px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #2c3e50;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0;
+  line-height: 60px;
+  width: 100%;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.nav a:hover {
+  background-color: #2c3e50;
+  color: white;
+}
+
+.nav a:visited {
+  color: #34495e;
+}
+
+.nav a:active {
+  background-color: #e67e22;
+}
+
+.poverty {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.pvimage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#maintext {
+  position: absolute;
+  top: 500px;
+  left: 80px;
+  font-size: 24px;
+  font-family: 'Playfair Display', serif;
+  color: #cf295e;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 10px 20px;
+  border-radius: 5px;
+  max-width: 90%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.footer {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 10px 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid #95a5a6;
+}
+
+.title {
+  text-align: center;
+  font-size: 36px;
+  color: #007b83;
+  margin-bottom: 30px;
+  font-family: 'Merriweather', serif;
+}
+
+.content h3 {
+  font-size: 24px;
+  color: #005f6b;
+  margin-bottom: 10px;
+  font-family: 'Merriweather', serif;
+}
+
+.content p,
+.content ul {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  color: #4a4a4a;
+  margin-bottom: 20px;
+}
+
+.content ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.content li {
+  margin-bottom: 10px;
+}
+
+.fillup {
+  width: 60%;
+  margin: 50px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.submessage {
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.donation-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.donation-form label {
+  margin-bottom: 8px;
+}
+
+.donation-form input[type="text"],
+.donation-form input[type="email"],
+.donation-form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.donation-form input[type="submit"] {
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.donation-form input[type="submit"]:hover {
+  background-color: #c26400;
+}
+
+.thankyou {
+  text-align: center;
+  margin: 50px auto;
+  padding: 30px;
+  max-width: 600px;
+  background-color: #f0f8f5;
+  border: 2px solid #46867d;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.tymsg {
+  font-family: 'Playfair Display', serif;
+  color: #2d6a67;
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.msg {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #4b4b4b;
+  line-height: 1.8;
+  margin: 0;
+}
